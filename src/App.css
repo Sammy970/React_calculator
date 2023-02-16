@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif;
+  background: #1e2723;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  border: 2px solid;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+
+.current-value {
+  font-size: 19px;
+  font-weight:bold ;
+  padding: 10px;
+  margin-left: 20px;
+  border: 2px solid tomato;
+  border-radius: 6px;
+  height: 30px;
+  width: 500px;
+  position: static;
+  top: 30%;
+  color: whitesmoke;
+  
+}
+
+.title {
+  margin-left: 20px;
+  font-style: italic;
+  color: tomato;
+}
